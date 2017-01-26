@@ -96,8 +96,9 @@ scim:
   users:
 #  Configure additional c2s staff admin(users) as:
 #    - EmailId | password | EmailId | FirstName | LastName | <Comma saperated list of permissions>
-#  For example:  - consent2share@gmail.com|admin|consent2share@gmail.com|admin|admin|openid,scim.write,scim.read,scim.create,phr.allPatientProfiles_read,phr.hie_write,phr.allPatients_read,phr.patient_read,registration.write,uaa.admin,patientUser.read,patientUser.write,adminUI.access
     - consent2share@gmail.com|admin|consent2share@gmail.com|admin|admin|openid,scim.write,scim.read,scim.create,phr.allPatientProfiles_read,phr.hie_write,phr.allPatients_read,phr.patient_read,registration.write,uaa.admin,patientUser.read,patientUser.write,adminUI.access
+    - mydatachoice@gmail.com|provider|mydatachoice@gmail.com|MDC|MDC|openid,scim.write,scim.read,scim.create,phr.allPatientProfiles_read,phr.hie_write,phr.allPatients_read,phr.patient_read,registration.write,patientUser.read,patientUser.write,adminUI.access,pep.patient_read
+
 # C2S_APP_HOST and C2S_APP_PORT are related to edge server api
 c2s:
   uaa:
